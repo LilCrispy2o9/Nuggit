@@ -1,5 +1,4 @@
-# ![PocketMine-MP](http://image.noelshack.com/fichiers/2016/43/1477490625-elybanner.png)
-###Elywing is now updated for MC:PE 1.0 [Windows 10 + PocketEdition] 
+###Nuggit is now updated for MC:PE 1.0 [Windows 10 + PocketEdition] 
 
 	This program is free software: you can redistribute it and/or modify
 	it under the terms of the GNU Lesser General Public License as published by
@@ -15,23 +14,10 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-__Elywing is a free, open-source software that creates Minecraft: Pocket Edition servers and allows extending its functionalities__
+__Nuggit is a free, open-source software that creates Minecraft: Pocket Edition servers and allows extending its functionalities__
 
 
-### Elywing, a fork of PocketMine-MP, modified by
-
-### [Twitter @SuperMaXAleX](https://twitter.com/SuperMaXAleX/)
-
-### [Twitter @ReskillDEV](https://twitter.com/ReskillDEV/)
-
-### [Twitter @Misteboss_mcpe](https://twitter.com/Misteboss_mcpe/)
-
-### [Twitter @Pab45O](https://twitter.com/Pab45O/)
-
-### [Twitter @muqsitrayyan](https://twitter.com/muqsitrayyan/)
-
-
-### [Elywing's Twitter](https://twitter.com/elywing_h4pm/)
+### Nuggit, a fork of PocketMine-MP, modified by me
 
 ## Third-party Libraries/Protocols Used
 * __[PHP Sockets](http://php.net/manual/en/book.sockets.php)__

@@ -1,5 +1,5 @@
 @echo off
-TITLE Elywing server software for Minecraft: Pocket Edition // No Real utility
+TITLE Nuggit server software for Minecraft: Pocket Edition // No Real utility
 cd /d %~dp0
 
 if exist bin\php\php.exe (
@@ -9,16 +9,16 @@ if exist bin\php\php.exe (
 	set PHP_BINARY=php
 )
 
-if exist Elywing*.phar (
-	set POCKETMINE_FILE=Elywing*.phar
+if exist Nuggit*.phar (
+	set POCKETMINE_FILE=Nuggit*.phar
 ) else (
-if exist Elywing.phar (
-	set POCKETMINE_FILE=Elywing.phar
+if exist Nuggit.phar (
+	set POCKETMINE_FILE=Nuggit.phar
 ) else (
 	if exist src\pocketmine\PocketMine.php (
 		set POCKETMINE_FILE=src\pocketmine\PocketMine.php
 	) else (
-		echo "Couldn't find a valid Elywing installation"
+		echo "Couldn't find a valid Nuggit installation"
 		pause
 		exit 1
 	)
@@ -28,7 +28,7 @@ REM if exist bin\php\php_wxwidgets.dll (
 REM 	%PHP_BINARY% %POCKETMINE_FILE% --enable-gui %*
 REM ) else (
 	if exist bin\mintty.exe (
-		start "" bin\mintty.exe -o Columns=88 -o Rows=32 -o AllowBlinking=0 -o FontQuality=3 -o Font="Consolas" -o FontHeight=10 -o CursorType=0 -o CursorBlinks=1 -h error -t "Elywing" -w max %PHP_BINARY% %POCKETMINE_FILE% --enable-ansi %*
+		start "" bin\mintty.exe -o Columns=88 -o Rows=32 -o AllowBlinking=0 -o FontQuality=3 -o Font="Consolas" -o FontHeight=10 -o CursorType=0 -o CursorBlinks=1 -h error -t "Nuggit" -w max %PHP_BINARY% %POCKETMINE_FILE% --enable-ansi %*
 	) else (
 		%PHP_BINARY% -c bin\php %POCKETMINE_FILE% %*
 	)

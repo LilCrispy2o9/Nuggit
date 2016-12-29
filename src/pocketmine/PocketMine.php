@@ -74,7 +74,7 @@ namespace pocketmine {
 
 	const VERSION = "1.0";
 	const API_VERSION = "3.0.0-ALPHA1";
-	const CODENAME = "Birpen";
+	const CODENAME = "Crispy";
 	const MINECRAFT_VERSION = "v1.0.0 alpha";
 	const MINECRAFT_VERSION_NETWORK = "1.0.0";
 	const GENISYS_API_VERSION = '1.9.3';
@@ -446,7 +446,7 @@ namespace pocketmine {
 	}
 
 	if($errors > 0){
-		$logger->critical("Please update your PHP from itxtech.org/genisys/get/, or recompile PHP again.");
+		$logger->critical("Please recompile PHP again.");
 		$logger->shutdown();
 		$logger->join();
 		exit(1); //Exit with error
