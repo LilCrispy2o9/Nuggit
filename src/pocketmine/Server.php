@@ -367,7 +367,7 @@ class Server{
 	 * @return string
 	 */
 	public function getName() : string{
-		return "Elywing";
+		return "Nuggit";
 	}
 
 	/**
@@ -1550,18 +1550,18 @@ class Server{
 
 	public function about(){
 		$string = "§b
-                ____          
-               |  __|_              _
-               | |__| |      _    _(_)_ __   ___
-               |  __| |_   _| |  | | | '_ \ / _ \
-               | |__| | | | | |/\| | | | | | (_) |
-               |____|_|\ \/ \__/\__/_|_| |_|\___ |
-                       _|  /                 __| |
-                      |___/                 |___/
+				  _   _                   _ _   
+				 | \ | |                 (_) |  
+				 |  \| |_   _  __ _  __ _ _| |_ 
+				 | . ` | | | |/ _` |/ _` | | __|
+				 | |\  | |_| | (_| | (_| | | |_ 
+				 |_| \_|\__,_|\__, |\__, |_|\__|
+							   __/ | __/ |      
+							  |___/ |___/       
 
 	§fA stable §e" . \pocketmine\MINECRAFT_VERSION . "§f fork of §3PocketMine-MP (pmmp)§f.
-			§fModified by §bH§e4§3PM§f.
-	    Source code: §3https://github.com/H4PM/Elywing§f
+			§fModified by LilCrispy2o9.
+	    Source code: §3https://github.com/LilCrispy2o9/Nuggit§f
 	";
 	
 		$this->getLogger()->info($string);
