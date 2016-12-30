@@ -92,7 +92,7 @@ class CommandReader extends Thread{
 
 	public function run(){
 		if($this->readline){
-			readline_callback_handler_install("Nuggit > ", [$this, "readline_callback"]);
+			readline_callback_handler_install("Nuggit> ", [$this, "readline_callback"]);
 			$this->logger->setConsoleCallback("readline_redisplay");
 		}
 
@@ -117,7 +117,7 @@ class CommandReader extends Thread{
 		}
 
 		if($this->readline){
-			$this->logger->setConsoleCallback(null);
+			$this->logger->setConsoleCallback("readline_redisplay");
 			readline_callback_handler_remove();
 		}
 	}
